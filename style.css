@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+header{
+    margin:20px 20px 0 20px;
+    background-color: rgba(254, 252, 252);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;  /* สำคัญ: ให้สองฝั่งแยกซ้าย-ขวา */
+    
+}
+.text-container {
+    padding: 20px;
+    text-align: left;
+    max-width: 40%;
+    text-shadow: 2px 2px 4px #ff96ff;
+
+}
+
+.navbar-container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 50px;
+    flex-wrap: wrap; /* ทำให้เมนูเรียงต่อกัน */
+
+}
+a{
+    color: rgb(109, 0, 76);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.main-container-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+.main-container{
+    background-color: rgba(255, 255, 255);
+    border-radius: 20px;
+    display:block;
+    padding:10px;
+    min-height: 70vh;
+    width: 90%;
+
+    flex-wrap: wrap;/* ทำให้การ์ดเรียงต่อกัน */
+    
+}
+
+.main-title{
+    max-width: 100%;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container-card{
+    display:flex;
+    flex-wrap: wrap; /* ทำให้การ์ดเรียงต่อกัน */
+    gap: 80px;
+    justify-content: center;
+    width: 100%;
+    
+}
+img{
+    
+    height: 200px;
+    border-radius: 20px;
+}
+.card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}  
+
+.add-to-cart{
+    background-color: rgb(255, 198, 237);
+    border-radius: 20px;
+    border:none;
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(255, 36, 156);
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+}
